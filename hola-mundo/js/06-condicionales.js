@@ -55,7 +55,9 @@ else{
     console.log("Estamos en la era post moderna");
 }
 
-if(year == 2008 || year == 2018){
+if(year == 2008 || (year >=2018 && year == 2028)){
    console.log("El año acaba en 8"); 
+}else {
+    console.log("AÑO NO REGISTRADO");
 }
 
